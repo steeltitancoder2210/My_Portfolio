@@ -4,7 +4,7 @@ export const navItems = [
     { name: "Testimonials", link: "#testimonials" },
     { name: "Contact", link: "#contact" },
   ];
-  
+
   export const gridItems = [
     {
       id: 1,
@@ -46,7 +46,7 @@ export const navItems = [
       img: "/grid.svg",
       spareImg: "/b4.svg",
     },
-  
+
     {
       id: 5,
       title: "Currently building a JS Animation library",
@@ -68,7 +68,7 @@ export const navItems = [
       spareImg: "",
     },
   ];
-  
+
   export const projects = [
     {
       id: 1,
@@ -103,40 +103,57 @@ export const navItems = [
       link: "/ui.apple.com",
     },
   ];
-  
-  export const testimonials = [
+  export const platforms = [
     {
-      quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+      name: "CodeChef",
+      img: "https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png",
+      url: "https://www.codechef.com/users/your-username",
+      rating: "3* at CodeChef",
+      username: "your-username",
     },
     {
-      quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+      name: "LeetCode",
+      img: "https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png",
+      url: "https://leetcode.com/your-username",
+      rating: "Top 5% at LeetCode",
+      username: "your-username",
     },
-    {
-      quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
-    },
-    {
-      quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
-    },
-    {
-      quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
-    },
+    // Add more items as needed
   ];
-  
+
+  // export const testimonials = [
+  //   {
+  //     quote:
+  //       "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+  //     name: "Michael Johnson",
+  //     title: "Director of AlphaStream Technologies",
+  //   },
+  //   {
+  //     quote:
+  //       "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+  //     name: "Michael Johnson",
+  //     title: "Director of AlphaStream Technologies",
+  //   },
+  //   {
+  //     quote:
+  //       "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+  //     name: "Michael Johnson",
+  //     title: "Director of AlphaStream Technologies",
+  //   },
+  //   {
+  //     quote:
+  //       "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+  //     name: "Michael Johnson",
+  //     title: "Director of AlphaStream Technologies",
+  //   },
+  //   {
+  //     quote:
+  //       "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+  //     name: "Michael Johnson",
+  //     title: "Director of AlphaStream Technologies",
+  //   },
+  // ];
+
   export const companies = [
     {
       id: 1,
@@ -169,7 +186,7 @@ export const navItems = [
       nameImg: "/dockerName.svg",
     },
   ];
-  
+
   export const workExperience = [
     {
       id: 1,
@@ -200,7 +217,7 @@ export const navItems = [
       thumbnail: "/exp4.svg",
     },
   ];
-  
+
   export const socialMedia = [
     {
       id: 1,
