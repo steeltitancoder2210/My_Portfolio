@@ -5,6 +5,7 @@ import Grid from "@/components/Grid";
 import RecentProject from "@/components/RecentProject";
 import { navItems } from "@/data";
 import Platforms from "@/components/Platforms";
+import Experience from "@/components/Experience";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
         <Grid/>
         <RecentProject/>
         <Platforms />
+        <Experience />
       </div>
     </main>
   );
