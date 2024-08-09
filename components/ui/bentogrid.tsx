@@ -4,6 +4,7 @@
 
 import { useEffect, useState } from "react";
 import { IoCopyOutline } from "react-icons/io5";
+import { HiOutlineDocumentDownload } from "react-icons/hi";
 import { motion } from "framer-motion";
 import Lottie from "react-lottie";
 import { cn } from "@/lib/utils";
@@ -88,6 +89,16 @@ export const BentoGridItem = ({
     const text = "hsu@jsmastery.pro";
     navigator.clipboard.writeText(text);
     setCopied(true);
+  };
+  const handleDownload = () => {
+    const resumeLink = "link_to_your_resume.pdf"; // Replace with your resume link
+    const link = document.createElement("a");
+    link.href = resumeLink;
+    link.download = "My_Resume.pdf"; // Specify the name of the downloaded file
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+    setCopied(true); // Assuming you want to keep the copied state for the animation or change it to a more appropriate state name.
   };
 
   useEffect(() => {
@@ -188,14 +199,15 @@ export const BentoGridItem = ({
               </div>
 
               <MagicButton
-                title={copied ? "Email is Copied!" : "Copy my email address"}
-                icon={<IoCopyOutline />}
+              title={copied ? "Resume Downloaded!" : "Download My Resume"}
+              icon={<HiOutlineDocumentDownload/>}
                 position="left"
-                handleClick={handleCopy}
+                handleClick={handleDownload}
                 otherClasses="!bg-[#161A31]"
               />
             </div>
           )}
+
         </div>
       </div>
     </div>
