@@ -4,7 +4,7 @@ export const navItems = [
     { name: "Testimonials", link: "#testimonials" },
     { name: "Contact", link: "#contact" },
   ];
-  
+
   export const gridItems = [
     {
       id: 1,
@@ -46,7 +46,7 @@ export const navItems = [
       img: "/grid.svg",
       spareImg: "/b4.svg",
     },
-  
+
     {
       id: 5,
       title: "Currently building a JS Animation library",
@@ -68,7 +68,7 @@ export const navItems = [
       spareImg: "",
     },
   ];
-  
+
   export const projects = [
     {
       id: 1,
@@ -105,33 +105,22 @@ export const navItems = [
   ];
   export const platforms = [
     {
+      name: "CodeChef",
+      img: "https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png",
+      url: "https://www.codechef.com/users/your-username",
+      rating: "3* at CodeChef",
+      username: "your-username",
+    },
+    {
       name: "LeetCode",
       img: "https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png",
-      url: "https://leetcode.com",
+      url: "https://leetcode.com/your-username",
+      rating: "Top 5% at LeetCode",
+      username: "your-username",
     },
-    {
-      name: "Codeforces",
-      img: "https://upload.wikimedia.org/wikipedia/commons/e/ed/Codeforces_logo.png",
-      url: "https://codeforces.com",
-    },
-    {
-      name: "GeeksforGeeks",
-      img: "https://upload.wikimedia.org/wikipedia/commons/4/43/GeeksforGeeks.svg",
-      url: "https://geeksforgeeks.org",
-    },
-    {
-      name: "CodeStudio",
-      img: "https://www.codingninjas.com/assets/images/codestudio/codestudio-tag-small.77b1b6e122df37289f7a400ce3c9354a.svg",
-      url: "https://www.codingninjas.com/codestudio",
-    },
-    {
-      name: "HackerRank",
-      img: "https://upload.wikimedia.org/wikipedia/commons/6/65/HackerRank_logo.png",
-      url: "https://hackerrank.com",
-    },
-    // Add more platforms as needed
+    // Add more items as needed
   ];
-  
+
   // export const testimonials = [
   //   {
   //     quote:
@@ -164,7 +153,7 @@ export const navItems = [
   //     title: "Director of AlphaStream Technologies",
   //   },
   // ];
-  
+
   export const companies = [
     {
       id: 1,
@@ -197,7 +186,7 @@ export const navItems = [
       nameImg: "/dockerName.svg",
     },
   ];
-  
+
   export const workExperience = [
     {
       id: 1,
@@ -228,7 +217,7 @@ export const navItems = [
       thumbnail: "/exp4.svg",
     },
   ];
-  
+
   export const socialMedia = [
     {
       id: 1,
